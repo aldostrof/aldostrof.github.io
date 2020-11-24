@@ -1,4 +1,10 @@
-**Hello world**, this is my first blog post.
+---
+layout: single
+title:  "My First Post!"
+---
 
-I hope you like it!
-Modifications
+# Welcome
+
+**Hello world**, this is my first Jekyll blog post.
+
+I hope you like it, with modifications.

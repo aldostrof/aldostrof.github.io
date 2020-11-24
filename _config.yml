@@ -20,7 +20,7 @@ title                    : "Coding Around"
 title_separator          : "-"
 subtitle                 : "A journey through the everyday joys and tragedies of a programmer."
 name                     : "Aldo Strofaldi"
-description              : "An amazing website."
+description              : "Collection of personal notes, exercises and programming stuff."
 url                      : "https://aldostrof.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : aldostrof # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -94,14 +94,14 @@ analytics:
 # Site Author
 author:
   name             : "Aldo Strofaldi"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Embedded Systems Engineer"
-  location         : "Somewhere"
-  email            :
+  avatar           : "/assets/images/profile.png"
+  bio              : "Loving and hating programming on a regular basis."
+  location         : "Naples, Italy"
+  email            : "aldo.strofaldi@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -110,13 +110,13 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://facebook.com/aldo.strofaldi"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/aldostrof"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/aldostrof_b"
 
 # Site Footer
 footer:
@@ -126,19 +126,19 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://facebook.com/aldo.strofaldi"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/aldostrof"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: https://gitlab.com/aldolive
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/aldostrof_b"
 
 
 # Reading Files
@@ -280,3 +280,12 @@ defaults:
       share: true
       related: true
       show_date: true
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

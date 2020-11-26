@@ -16,21 +16,21 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Coding Around"
+title                    : "Life Debug"
 title_separator          : "-"
-subtitle                 : "A journey through the everyday joys and tragedies of a programmer."
+subtitle                 : "A journey through the everyday joys and tragedies of a computer engineer."
 name                     : "Aldo Strofaldi"
-description              : "Collection of personal notes, exercises and programming stuff."
+description              : "Collection of notes, thoughts, interests and programming stuff, perfectly mixed up."
 url                      : "https://aldostrof.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : aldostrof # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /assets/logo/logo_88x88.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -39,7 +39,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
@@ -75,13 +75,16 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : /assets/logo/logo_120x120.png # Open Graph/Twitter default site image when sharing, used if header.image is not set in front matter
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links:
+    - "https://www.facebook.com/aldo.strofaldi"
+    - "https://instagram.com/aldostrof_b"
+    - "https://www.linkedin.com/in/aldo-strofaldi"
 
 # Analytics
 analytics:
@@ -95,8 +98,8 @@ analytics:
 author:
   name             : "Aldo Strofaldi"
   avatar           : "/assets/images/profile.png"
-  bio              : "Loving and hating programming on a regular basis."
-  location         : "Naples, Italy"
+  bio              : "Trying to change the world, bit-by-bit."
+  location         : "Quarto, Naples, Italy"
   email            : "aldo.strofaldi@gmail.com"
   links:
     #- label: "Email"
@@ -121,18 +124,18 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+    #  url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/aldo.strofaldi"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/aldostrof"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: https://gitlab.com/aldolive
+    #- label: "GitLab"
+    #  icon: "fab fa-fw fa-gitlab"
+    #  url: https://gitlab.com/aldolive
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
@@ -268,6 +271,8 @@ compress_html:
 
 
 # Defaults
+# Note for posts: use header.image to set the post image preview.
+# if not set, defaults to og_image.
 defaults:
   # _posts
   - scope:
@@ -277,7 +282,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
       show_date: true

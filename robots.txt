@@ -1,0 +1,22 @@
+# Googlebot does not have to scan /nogooglebot/ and its subdirectories for indexing
+# User-agent: Googlebot
+# Disallow: /nogooglebot/
+
+# Example 2: Block Googlebot and Adsbot
+# User-agent: Googlebot
+# User-agent: AdsBot-Google
+# Disallow: /
+
+# Se usi un asterisco (*), la regola viene applicata a tutti i crawler tranne ai vari crawler AdsBot, i cui nomi devono essere indicati espressamente
+# Example 3: Block all but AdsBot crawlers
+# User-agent: *
+# Disallow: /
+
+# For more info: https://developers.google.com/search/docs/advanced/robots/create-robots-txt?hl=it
+
+# All user-agents have access to entire website
+User-agent: *
+Allow: /
+
+# Sitemap location, automatically built by jekyll-sitemap plugin
+Sitemap: https://aldostrof.github.io/sitemap.xml

@@ -93,6 +93,12 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+# Google AdSense
+google_adsense:
+  # this value is the one contained in html snipped given by Google AdSense registration process.
+  # see _includes/google_adsense.html file
+  data_ad_client         : ca-pub-9841572599034536 
+
 
 # Site Author
 author:

@@ -5,7 +5,7 @@ categories:
 tags:
   - Welcome
 header:
-  image: /assets/images/2020-11-24-first_post/rocket.jpg
+  image: /assets/images/2020-11-24-first_post/rocket.png
 ---
 
 **Hello, world!**

@@ -4,8 +4,10 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
     url: /about/
+    description: "Some info about me."
   - title: "Post Archive"
     url: /year-archive/
+    description: "Archive of posts, by year."
   #- title: "Sample Collections"
   #  url: /collection-archive/
   #- title: "Sitemap"

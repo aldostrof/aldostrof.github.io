@@ -22,7 +22,7 @@ onInitialise: function (status) {
     if (type == 'opt-in' && didConsent) {
     // enable cookies
     loadGAonConsent();
-    loadDisqusOnConsent()
+    loadDisqusOnConsent();
     }
     if (type == 'opt-out' && !didConsent) {
     // disable cookies
@@ -34,7 +34,7 @@ onStatusChange: function(status, chosenBefore) {
     if (type == 'opt-in' && didConsent) {
     // enable cookies
     loadGAonConsent();
-    loadDisqusOnConsent()
+    loadDisqusOnConsent();
     }
     if (type == 'opt-out' && !didConsent) {
     // disable cookies
@@ -48,7 +48,7 @@ onRevokeChoice: function() {
     if (type == 'opt-out') {
     // enable cookies
     loadGAonConsent();
-    loadDisqusOnConsent()
+    loadDisqusOnConsent();
     }
 }
 });

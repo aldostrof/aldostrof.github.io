@@ -153,6 +153,10 @@ footer:
     #  icon: "fab fa-fw fa-instagram"
     #  url: "https://instagram.com/aldostrof_b"
 
+# List of scripts to be executed after footer initialization 
+after_footer_scripts: 
+  - /assets/js/cookie-consent.js
+
 
 # Reading Files
 include:

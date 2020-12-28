@@ -63,7 +63,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : dOjMDv_4QKOLjMsYqqVUlH5BFXLuxQQX2B_3SygQVrw
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -101,7 +101,11 @@ author:
   bio              : "Trying to change the world, bit-by-bit."
   location         : "Quarto, Naples"
   email            : "aldo.strofaldi@gmail.com"
-  links:
+  facebook         : "aldo.strofaldi"
+  github           : "aldostrof"
+  instagram        : "aldostrof_b"
+  linkedin         : "aldo-strofaldi"
+  links: # additional links
     #- label: "Email"
     #  icon: "fas fa-fw fa-envelope-square"
     #  url: "mailto:your.name@email.com"
@@ -113,13 +117,13 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/aldo.strofaldi"
+      # url: "https://facebook.com/aldo.strofaldi"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/aldostrof"
+      # url: "https://github.com/aldostrof"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/aldostrof_b"
+      # url: "https://instagram.com/aldostrof_b"
 
 # Site Footer
 footer:

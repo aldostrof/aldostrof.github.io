@@ -6,6 +6,7 @@ tags:
   - Welcome
 header:
   image: /assets/images/2020-11-24-first_post/rocket.png
+related: false
 ---
 
 **Hello, world!**
